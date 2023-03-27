@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import img1 from '../images/tour-1.jpeg'
+// import img1 from '../images/tour-1.jpeg'
 import { tours } from '../data'
 
 const Tours = () => {
@@ -12,9 +12,9 @@ const Tours = () => {
         {tours.map((tour) => {
           const { id, img, date, title, text, country, duration, price } = tour
           return (
-            <article className="tour-card">
+            <article className="tour-card" key={id}>
               <div className="tour-img-container">
-                <img src={img1} className="tour-img" alt="" />
+                <img src={img} className="tour-img" alt="" />
                 <p className="tour-date">{date}</p>
               </div>
               <div className="tour-info">

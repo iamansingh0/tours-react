@@ -15,12 +15,6 @@ export const socialLinks = [
   { id: 3, href: 'https://github.com/iamansingh0', icon: 'fab fa-github' },
 ]
 
-// export const titles = [
-//     {id: 1, text1: 'About', text2: 'Us'},
-//     {id: 2, text1: 'Our', text2: 'Services'},
-//     {id: 3, text1: 'featured', text2: 'tours'},
-// ]
-
 export const services = [
   {
     id: 1,
@@ -45,7 +39,7 @@ export const services = [
 export const tours = [
   {
     id: 1,
-    img: './images/tour-1.jpeg',
+    img: require('./images/tour-1.jpeg'),
     date: 'august 26th, 2020',
     title: 'Tibet Adventure',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
@@ -55,7 +49,7 @@ export const tours = [
   },
   {
     id: 2,
-    img: './images/tour-2.jpeg',
+    img: require('./images/tour-2.jpeg'),
     date: 'october 1th, 2020',
     title: 'best of java',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
@@ -65,7 +59,7 @@ export const tours = [
   },
   {
     id: 3,
-    img: './images/tour-3.jpeg',
+    img: require('./images/tour-3.jpeg'),
     date: 'september 15th, 2020',
     title: 'explore hong kong',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
@@ -75,7 +69,7 @@ export const tours = [
   },
   {
     id: 4,
-    img: './images/tour-4.jpeg',
+    img: require('./images/tour-4.jpeg'),
     date: 'december 5th, 2019',
     title: 'kenya highlights',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',

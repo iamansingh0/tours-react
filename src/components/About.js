@@ -23,7 +23,7 @@ const About = () => {
             <p>
             Our team of experienced game masters is dedicated to delivering top-notch customer service and ensuring your complete satisfaction. Come escape reality with us and create unforgettable memories with your friends and family.
             </p>
-            <a href="#" className="btn">
+            <a href="#services" className="btn">
               read more
             </a>
           </article>
