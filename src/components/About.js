@@ -1,18 +1,16 @@
 import React from 'react'
+import abtImg from '../images/about.jpg'
+import Title from './Title'
 
 const About = () => {
   return (
     <section className="section" id="about">
-        <div className="section-title">
-          <h2>
-            about <span>us</span>
-          </h2>
-        </div>
+        <Title title='About' subtitle='us' />
 
         <div className="section-center about-center">
           <div className="about-img">
             <img
-              src="./images/about.jpeg"
+              src={abtImg}
               className="about-photo"
               alt="awesome beach"
             />
@@ -20,14 +18,10 @@ const About = () => {
           <article className="about-info">
             <h3>explore the difference</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Aspernatur quisquam harum nam cumque temporibus explicabo dolorum
-              sapiente odio unde dolor?
+            At Escape Reality Tours, we specialize in immersive experiences that transport you to another world. Our expertly crafted adventures cater to all ages and interests, from puzzle-solving to adrenaline-pumping challenges.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Aspernatur quisquam harum nam cumque temporibus explicabo dolorum
-              sapiente odio unde dolor?
+            Our team of experienced game masters is dedicated to delivering top-notch customer service and ensuring your complete satisfaction. Come escape reality with us and create unforgettable memories with your friends and family.
             </p>
             <a href="#" className="btn">
               read more
