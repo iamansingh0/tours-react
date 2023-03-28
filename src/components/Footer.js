@@ -25,6 +25,7 @@ const Footer = () => {
                 href={href}
                 target="_blank"
                 className="footer-icon"
+                rel='noreferrer'
               >
                 <i className={icon}></i>
               </a>
@@ -34,7 +35,7 @@ const Footer = () => {
       </ul>
       <p className="copyright">
         copyright &copy; Escape Reality Tours Company
-        <span id="date"></span> all rights reserved
+        <span id="date">{new Date().getFullYear()}</span> all rights reserved
       </p>
     </footer>
   )
