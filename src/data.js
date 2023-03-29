@@ -77,4 +77,24 @@ export const tours = [
     duration: '5 days',
     price: 'from $3300'
   },
+  {
+    id: 5,
+    img: require('./images/tour-2.jpg'),
+    date: 'december 9th, 2023',
+    title: 'breathtaking manali',
+    text: 'With spectacular valleys, breathtaking views, snowcapped mountains, and lush forests of oak, deodar, and pine, Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh.',
+    country: 'India',
+    duration: '8 days',
+    price: 'from $3800'
+  },
+  {
+    id: 6,
+    img: require('./images/tour-4.jpg'),
+    date: 'december 5th, 2023',
+    title: 'breathtaking manali',
+    text: 'With spectacular valleys, breathtaking views, snowcapped mountains, and lush forests of oak, deodar, and pine, Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh.',
+    country: 'India',
+    duration: '5 days',
+    price: 'from $3300'
+  },
 ]

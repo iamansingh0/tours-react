@@ -327,6 +327,7 @@ Featured Tours
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  border-radius: 6px;
 }
 .tour-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -338,6 +339,8 @@ Featured Tours
 .tour-img {
   height: 15rem;
   object-fit: cover;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
 }
 .tour-date {
   position: absolute;
@@ -557,4 +560,20 @@ Navbar
   .nav-icon:hover {
     color: var(--clr-primary-8);
   }
+}
+
+.num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.6vw;
+  min-width: 30px;
+  background: var(--clr-primary-8);
+  display: flex;
+  justify-content: center;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  color: var(--clr-grey-2);
+  font-weight: 500;
+  align-items: center;
 }
